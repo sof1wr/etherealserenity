@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="coffee.svg" type="image/x-icon">
+  <title>Our Products - Ethereal Serenity</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #6F4436;
+    }
+
+    header {
+      height: 70px;
+      background-color: #DFCCAF;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #top-header {
+      display: flex;
+      align-items: center;
+    }
+
+    #logo img {
+      max-width: 200px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #DFCCAF;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Styles for Section 1 */
+
+    .our-products-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #fff;
+      text-align: justify;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .our-products-container h2 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .our-products-container p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    /* Styles for Section 1 - Coffee */
+
+    .coffee-section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .coffee-section img {
+      max-width: 400px;
+      height: auto;
+    }
+
+    .coffee-section ul {
+      font-size: 20px;
+    }
+
+    /* Styles for Section 2 - Tea */
+
+    .tea-section {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      gap: 20px;
+    }
+
+    .tea-section img {
+      max-width: 400px;
+      height: auto;
+    }
+
+    .tea-section ul {
+      font-size: 20px;
+    }
+
+    /* Styles for Section 3 - Pastry */
+
+    .pastry-section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .pastry-section img {
+      max-width: 400px;
+      height: auto;
+    }
+
+    .pastry-section ul {
+      font-size: 20px;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <div id="top-header">
+      <div id="logo">
+        <img src="logo.jpg" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <ul>
+            <li><a href="home.htm">Home</a></li>
+            <li><a href="aboutus.htm">About Us</a></li>
+            <li class="active"><a href="ourproducts.htm">Our Products</a></li>
+            <li><a href="details.htm">Product Details</a></li>
+            <li><a href="business.htm">Business Structure</a></li>
+            <li><a href="contact.htm">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="our-products-container">
+      <div>
+        <h2><b>Our Products</b></h2>
+        <section class="coffee-section">
+          <img src="coffee.jpg" alt="Coffee">
+          <ul>
+            <h3 style="font-size: 40px;">Coffee</h3>
+            <li>Espresso</li>
+            <li>Americano</li>
+            <li>Cappucino</li>
+            <li>Latte</li>
+            <li>Mocha</li>
+            <li>Macchiato</li>
+            <li>Flat White</li>
+            <li>Drip Coffee</li>
+            <li>Cold Brew</li>
+            <li>Frappucino</li>
+          </ul>
+        </section>
+        <section class="tea-section">
+          <img src="tea.jpg" alt="Tea">
+          <ul>
+            <h3 style="font-size: 40px;">Tea</h3>
+            <li>Green Tea</li>
+            <li>Herbal Tea</li>
+            <li>Iced Tea</li>
+            <li>Jasmine Tea</li>
+          </ul>
+        </section>
+        <section class="pastry-section">
+          <img src="pastry.jpg" alt="Pastry">
+          <ul>
+            <h3 style="font-size: 40px;">Pastry</h3>
+            <li>Muffins</li>
+            <li>Cookies</li>
+            <li>Brownies</li>
+            <li>Custard Yogurt Toast</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p><b>ETHEREAL SERENITY</b></p>
+    <p>&copy; 2023 Ethereal Serenity. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

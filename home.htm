@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="coffee.svg" type="image/x-icon">
+
+  <title>Ethereal Serenity</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #6F4436;
+    }
+
+    header {
+      height: 70px;
+      background-color: #DFCCAF;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #top-header {
+      display: flex;
+      align-items: center;
+    }
+
+    #logo img {
+      max-width: 200px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #DFCCAF;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Styles for Section 1 */
+    #section1 {
+      position: relative;
+      width: 100%;
+      height: 500px;
+      background: url('image.jpg') no-repeat center center/cover;
+    }
+
+    #section1 .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(73, 68, 66, 0.6);
+      color: #fff;
+      text-align: center;
+    }
+
+    #section1 .overlay h1 {
+      font-size: 50px;
+      margin-bottom: 0px;
+    }
+
+    /* Styles for Section 2 */
+    #section2 {
+      position: relative;
+      width: 100%;
+      height: 500px;
+    }
+
+    #section2 .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    #section2 .overlay h1 {
+      font-size: 50px;
+      margin-bottom: 0px;
+    }
+
+    /* Styles for Section 3 */
+    .overlay h1, .overlay p {
+      text-align: center;
+      margin-top: 70px;
+    }
+    section {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .image-container {
+      text-align: center;
+      width: 30%;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+    }
+
+    .image-description {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #fff;
+    }
+
+  </style>
+
+</head>
+<body>
+  <header>
+    <div id="top-header">
+      <div id="logo">
+        <img src="logo.jpg" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <li class="active"><a href="home.htm">Home</a></li>
+          <li><a href="aboutus.htm">About Us</a></li>
+          <li><a href="ourproducts.htm">Our Products</a></li>
+          <li><a href="details.htm">Product Details</a></li>
+          <li><a href="business.htm">Business Structure</a></li>
+          <li><a href="contact.htm">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 1 of Main content -->
+    <section id="section1">
+      <div class="overlay">
+        <h1 class="title">Inhale the aroma, savor the sip, embrace the moment</h1>
+        <p style="font-size: 30px;">Let the warmth of each sip awaken your spirit</p>
+      </div>
+    </section>
+
+    <!-- Section 2 of Main content -->
+    <section id="section2">
+     <div class="overlay">
+        <h1 class="title">Coffee:</h1>
+       <p style="font-size: 28px;">The sparks for conversations, creativity ignites, and revolutions launch</p>
+       <p></p>
+      <b><p style="font-size: 50px;">Our Hot Products</p></b> 
+     </div>
+     </section>
+
+    <!-- Section 3 of Main content -->
+    <section>
+        <div class="image-container">
+          <img src="coldbrew.jpg" alt="Image 1">
+          <p class="image-description">Cold Brew</p>
+        </div>
+        <div class="image-container">
+          <img src="dripcoffee.jpg" alt="Image 2">
+          <p class="image-description">Drip Coffee</p>
+        </div>
+        <div class="image-container">
+          <img src="toast.jpg" alt="Image 3">
+          <p class="image-description">Custard Yogurt Toast</p>
+        </div>
+      </section>
+  </main>
+
+  <footer>
+    <P><b>ETHEREAL SERENITY</b></P>
+    <p>&copy; 2023 Ethereal Serenity. All rights reserved.</p>
+  </footer>
+  
+</body>
+</html>

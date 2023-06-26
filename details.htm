@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="coffee.svg" type="image/x-icon">
+  <title>Product Details - Ethereal Serenity</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #6F4436;
+    }
+
+    header {
+      height: 70px;
+      background-color: #DFCCAF;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #top-header {
+      display: flex;
+      align-items: center;
+    }
+
+    #logo img {
+      max-width: 200px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #DFCCAF;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Styles for Section 1 */
+    #section1 {
+      position: relative;
+      width: 100%;
+      height: 700px;
+      background: url('coffee2.jpg') no-repeat center center/cover;
+    }
+
+    #section1 .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(73, 68, 66, 0.6);
+      color: #fff;
+      text-align: center;
+    }
+
+    #section1 .overlay h1 {
+      font-size: 100px;
+      margin-bottom: 0px;
+    }
+
+    /* Styles for Section 2,4,6 */
+    #section2 {
+      position: relative;
+      width: 100%;
+      height: auto;
+      background-color: #6F4436;
+      display: flex;
+      justify-content: center;
+    }
+
+    .about-us-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #fff;
+      text-align: justify;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .about-us-container .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 70px;
+    }
+
+    .about-us-container .column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .about-us-container h3 {
+      font-size: 24.5px;
+      margin-bottom: 5px;
+    }
+
+    .about-us-container p {
+      font-size: 18.5px;
+      line-height: 1.5;
+    }
+  
+    /* Styles for Section 3 */
+    #section3 {
+      position: relative;
+      width: 100%;
+      height: 700px;
+      background: url('tea2.jpg') no-repeat center center/cover;
+    }
+
+    #section3 .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(73, 68, 66, 0.6);
+      color: #fff;
+      text-align: center;
+    }
+
+    #section3 .overlay h1 {
+      font-size: 100px;
+      margin-bottom: 0px;
+    }
+
+    /* Styles for Section 5 */
+    #section5 {
+      position: relative;
+      width: 100%;
+      height: 700px;
+      background: url('pastry2.jpg') no-repeat center center/cover;
+    }
+
+    #section5 .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(73, 68, 66, 0.6);
+      color: #fff;
+      text-align: center;
+    }
+
+    #section5 .overlay h1 {
+      font-size: 100px;
+      margin-bottom: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div id="top-header">
+      <div id="logo">
+        <img src="logo.jpg" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <ul>
+            <li><a href="home.htm">Home</a></li>
+            <li><a href="aboutus.htm">About Us</a></li>
+            <li><a href="ourproducts.htm">Our Products</a></li>
+            <li class="active"><a href="details.htm">Product Details</a></li>
+            <li><a href="business.htm">Business Structure</a></li>
+            <li><a href="contact.htm">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 1 of Main content -->
+    <section id="section1">
+      <div class="overlay">
+        <h1 class="title">Coffee</h1>
+      </div>
+    </section>
+
+    <!-- Section 2 of Main content -->
+    <section id="section2">
+      <div class="about-us-container">
+        <div class="content">
+          <div class="column">
+            <h3>Mocha</h3>
+            <p>Espresso combined with chocolate syrup or chocolate powder, steamed milk, and
+              topped with whipped cream and chocolate shavings.</p>
+            <h3>Espresso</h3>
+            <p>A concentrated coffee made by forcing hot water through finely ground coffee beans.</p>
+            <h3>Macchiato</h3>
+            <p>Espresso with a small amount of frothed milk on top.</p>
+            <h3>Cold Brew</h3>
+            <p>Coffee brewed with cold water over a long period, resulting in a smoother and less acidic flavour.</p>
+              <h3>Flat White</h3>
+              <p>Espresso with velvety steamed milk, creating a smooth and creamy texture.</p>
+          </div>
+          <div class="column">
+            <h3>Cappuccino</h3>
+            <p>Equal parts of espresso, steamed milk, and frothed milk, often topped with a sprinkle of cocoa or cinnamon.</p>
+            <h3>Drip Coffee</h3>
+            <p>Regular brewed coffee made by pouring hot water over ground coffee beans.</p>
+            <h3>Americano</h3>
+            <p>A shot of espresso diluted with hot water.</p>
+            <h3>Frappucino</h3>
+            <p>A blended iced coffee or coffee-based beverage, often with added flavors, syrups, or toppings.</p>
+            <h3>Latte</h3>
+            <p>Espresso with steamed milk and a small layer of frothed milk on top.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 of Main content -->
+    <section id="section3">
+      <div class="overlay">
+        <h1 class="title">Tea</h1>
+      </div>
+    </section>
+    
+    <!-- Section 4 of Main content -->
+    <section id="section2">
+      <div class="about-us-container">
+        <div class="content">
+          <div class="column">
+            <h3>Green Tea</h3>
+            <p>Unoxidized tea leaves, known for their fresh and grassy flavor.</p>
+            <h3>Herbal Tea</h3>
+            <p>Infusions made from herbs, flowers, or fruits, often caffeine-free.</p>
+            <h3>Jasmine Tea</h3>
+            <p>Aroma of taste of jasmine are infused into the tea leaves, resulting in a fragrant and slightly sweet brew.</p>
+          </div>
+          <div class="column">
+            <h3>Iced Tea</h3>
+            <p>Chilled tea served over ice, usually sweetened or flavored.</p>
+            <h3>Chai Latte</h3>
+            <p>Spiced tea blended with steamed milk, creating a fragrant and creamy beverage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5 of Main content -->
+    <section id="section5">
+      <div class="overlay">
+        <h1 class="title">Pastry</h1>
+      </div>
+    </section>
+
+    <!-- Section 6 of Main content -->
+    <section id="section2">
+      <div class="about-us-container">
+        <div class="content">
+          <div class="column">
+            <h3>Muffin</h3>
+            <p>Individual-sized cakes with various flavors such as blueberry, chocolate chip, or bran.</p>
+            <h3>Brownies</h3>
+            <p>Rich and fudgy chocolate squares often topped with nuts or frosting.</p>
+          </div>
+          <div class="column">
+            <h3>Cookies</h3>
+            <p>Sweet baked treats available in various flavors like chocolate chip, oatmeal
+                raisin, or sugar cookies.</p>
+            <h3>Custard Yogurt Toast</h3>
+            <p>A delightful and simple dish that combines the creaminess of custard and yogurt with the
+                crunchiness of toast.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><b>ETHEREAL SERENITY</b></p>
+    <p>&copy; 2023 Ethereal Serenity. All rights reserved.</p>
+  </footer>
+</body>
+</html>
